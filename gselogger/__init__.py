@@ -19,5 +19,8 @@
 # ----------------------------------------------------------------------
 
 from gselogger import _version
+from gselogger.logger_model import LoggerModel
+
+__all__ = ["LoggerModel"]
 
 __version__ = _version.get_versions()['version']
