@@ -1,5 +1,7 @@
 <h1 align="center">GSELogger</h1>
 
+![Tests](https://github.com/GSECARS/GSELogger/actions/workflows/test.yml/badge.svg?branch=main)
+
 GSELogger is a package that simplifies application logging to a file. Additional ways for logging will be added in
 the future (console logging, log streaming to a PyQt widget etc.)
 
@@ -38,6 +40,15 @@ pip install .
 
 #### <u>Requirements</u>
 1. Python >= 3.10
+
+#### <u>Development Requirements</u>
+1. Python >= 3.10
+2. versioneer>=0.28 
+3. flake8>=6.0.0 
+4. mypy>=1.0.1 
+5. pytest>=7.2.1 
+6. pytest-cov>=4.0.0 
+7. tox>=4.4.6
 
 <br />
 
