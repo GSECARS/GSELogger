@@ -25,6 +25,12 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
+[tool.pytest.ini_options]
+addopts = "--cov=gselogger"
+testpaths = [
+    "tests",
+]
+
 [tool.mypy]
 mypy_path = "gselogger"
 check_untyped_defs = true
